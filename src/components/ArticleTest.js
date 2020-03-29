@@ -21,15 +21,16 @@ export default function ArticleTest() {
       </p>
 
       <p>
-        <b>Paragraphs.</b> Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Quisquam, commodi soluta? Architecto excepturi similique quis
-        veniam maxime, doloremque cum magni quisquam aperiam, laudantium
-        cupiditate voluptatem dolorum labore amet, quos explicabo fuga
-        obcaecati. Ab, maxime. Perferendis in, facere voluptatibus veritatis
-        exercitationem doloremque animi, eligendi aliquam omnis nam praesentium
-        voluptatem laboriosam nesciunt eius, eum provident reiciendis officiis.
-        Mollitia provident sint adipisci voluptatibus, ut molestias enim earum
-        atque quam, modi officiis eum vitae sequi. Earum quos assumenda eveniet
+        <b>Paragraphs.</b> Lorem ipsum dolor sit amet,{" "}
+        <a href="/">Links are pretty nice</a>, consectetur adipisicing elit.
+        Quisquam, commodi soluta? Architecto excepturi similique quis veniam
+        maxime, doloremque cum magni quisquam aperiam, laudantium cupiditate
+        voluptatem dolorum labore amet, quos explicabo fuga obcaecati. Ab,
+        maxime. Perferendis in, facere voluptatibus veritatis exercitationem
+        doloremque animi, eligendi aliquam omnis nam praesentium voluptatem
+        laboriosam nesciunt eius, eum provident reiciendis officiis. Mollitia
+        provident sint adipisci voluptatibus, ut molestias enim earum atque
+        quam, modi officiis eum vitae sequi. Earum quos assumenda eveniet
         facilis repudiandae reprehenderit. Veniam aliquid excepturi ex id nihil
         iure. Harum commodi dolor doloremque, sequi sit perspiciatis dolorem
         ducimus, ut consequuntur, aspernatur consectetur soluta eligendi!
@@ -62,6 +63,19 @@ export default function ArticleTest() {
         voluptatum quibusdam quis, expedita quisquam consequatur distinctio enim
         ab? Laboriosam cumque eligendi architecto voluptates, dolores dolor?
       </p>
+
+      <div className="alert">
+        <b>Primary alert. </b>Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Modi enim nulla provident itaque explicabo, suscipit eius velit
+        fugit! Ducimus eligendi rerum sed nam enim id et provident eveniet iure
+        magnam?
+      </div>
+      <div className="alert warning">
+        <b>Warning alert. </b>Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Modi enim nulla provident itaque explicabo, suscipit eius velit
+        fugit! Ducimus eligendi rerum sed nam enim id et provident eveniet iure
+        magnam?
+      </div>
 
       <blockquote>
         <p>Keep it secret. Keep it safe.</p>

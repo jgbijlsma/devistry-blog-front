@@ -1,21 +1,19 @@
+a {
+  border-bottom: 2px solid $lt-link-border-col;
+  color: $lt-link-col;
+  font-weight: bold;
+}
+a:hover {
+  background: $lt-link-col-dim;
+  border-color: $lt-link-col;
+}
+
 .title {
   font-weight: 300;
 }
 
 .lead {
   font-size: 1.2em;
-}
-
-blockquote {
-  border-left: 10px solid $lt-blockquote-border;
-  padding: 1em;
-  font-size: 1.5em;
-  cite {
-    font-size: 1rem;
-  }
-  p {
-    margin-top: 0;
-  }
 }
 
 h1 {
@@ -47,8 +45,28 @@ p {
   margin: 1em 0;
 }
 
+blockquote {
+  border-left: 10px solid $lt-blockquote-border;
+  padding: 1em;
+  font-size: 1.5em;
+  cite {
+    font-size: 1rem;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
 body[data-theme="dark"] {
   blockquote {
     border-color: $dk-blockquote-border;
+  }
+
+  a {
+    border-color: $dk-link-border-col;
+  }
+  a:hover {
+    border-color: $lt-link-col;
+    background: $dk-link-col-dim;
   }
 }
