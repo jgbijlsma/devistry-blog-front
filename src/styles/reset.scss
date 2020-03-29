@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: 0;
+  cursor: pointer;
+}

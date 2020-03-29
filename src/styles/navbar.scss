@@ -1,0 +1,38 @@
+.navbar {
+  border-bottom: 2px solid $lt-navbar-border;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: $lt-navbar-background;
+  line-height: initial;
+  .container {
+    padding: 0.25em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    a {
+      margin: 0 1em;
+    }
+    .theme-toggle {
+      margin-left: 1em;
+      img {
+        width: 30px;
+      }
+    }
+  }
+  .icon {
+    width: 40px;
+  }
+}
+
+body[data-theme="dark"] {
+  .navbar {
+    border-color: $dk-navbar-border;
+    background: $dk-navbar-background;
+  }
+}

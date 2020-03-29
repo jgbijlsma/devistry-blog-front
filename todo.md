@@ -23,6 +23,7 @@
 
 # later
 
+- [x] dark theme toggle
 - [ ] basic styling
 - [ ] navbar
 - [ ] filler content for all pages
